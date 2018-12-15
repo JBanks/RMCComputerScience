@@ -144,6 +144,7 @@ unsigned int *generate_histogram(unsigned char image[IMG_SIZE][IMG_SIZE],
  *
  */
 void find_replace_str(char *str, char *replace, char *input, char *output) {
+	//I have not tested this function yet, I wrote out a skeleton to get my ideas down.
 	int search_length = strlen(str);
 	char c;
 	FILE* in = fopen(input, "r");
