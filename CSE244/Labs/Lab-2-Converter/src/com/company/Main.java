@@ -1,5 +1,5 @@
 package com.company;
-
+//Floats were all changed to doubles before submission.  Updated code was only on the lab computers.
 enum Nutrition {
     Calories(1),
     Joules((float)0.000239006),
