@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/jerem_000/OneDrive/School/RMC/Current Classes/EEE243/Exam Prep/Exercises/CLion/Exercises/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
