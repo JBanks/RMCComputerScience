@@ -70,7 +70,7 @@ class Point3D extends Point2D
     {
         setX(px);
         setY(py);
-        //setXY(px,py);  //apparently code readability doesn't matter.  Use the other method even if it makes it look weird.
+        //setXY(px,py);  //apparently code readability doesn't matter.  Use this method even if it makes it look weird.
         setZ(pz);
     }
 
