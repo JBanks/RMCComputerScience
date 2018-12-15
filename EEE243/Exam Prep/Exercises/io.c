@@ -5,6 +5,8 @@
 #define LINE_LENGTH 20
 
 /*
+//These functions were never completed.  
+//The intent was to finish them in a way that Dr. Givigi had with his example, but I never got around to finishing it.
 int get_word(char * word){
 	int word_position = 0;
 	char c;
@@ -47,7 +49,7 @@ char capitalize(char c){
 
 int main(void) {
 	FILE* in = fopen("lorem.txt", "r");
-	//FILE* out = fopen("out.txt", "w");
+	//FILE* out = fopen("out.txt", "w"); //Commented out to see effect in console.
 
 	char line[LINE_LENGTH];
 	char word[LINE_LENGTH];
@@ -55,7 +57,7 @@ int main(void) {
 	int word_position = 0;
 	char c;
 	int length;
-	line[0] = 0;
+	line[0] = 0;//Null terminator to signify an empty string.
 
 	while ((c=fgetc(in)) != EOF){
 		if (c == ' '){
@@ -63,7 +65,7 @@ int main(void) {
 
 			if (strlen(word) + strlen(line) + 1 > LINE_LENGTH){ //check string length and +1 for space
 			//START A NEW LINE
-				printf("'%-20s'\n", line); //print out line
+				printf("'%-20s'\n", line); //print out 20 characters of the string with apostrophes showing allowed space.
 				strcpy(line, word); //replace line with new word
 
 			} else {
