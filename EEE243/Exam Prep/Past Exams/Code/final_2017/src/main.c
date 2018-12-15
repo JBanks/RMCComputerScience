@@ -109,9 +109,9 @@ void test_q3() {
 
 //Q4
 void test_q4() {
-	char *input = "lorem.txt";
-	char *output = "modified.txt";
-	char *final = "final.txt";
+	char *input = "../lorem.txt";
+	char *output = "../modified.txt";
+	char *final = "../final.txt";
 
 	find_replace_str(",  ", ", ", input, output);
 	find_replace_str(".  ", ". ", output, final);
