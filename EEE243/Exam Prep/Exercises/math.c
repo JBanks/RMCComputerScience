@@ -59,8 +59,10 @@ double sinus(double x, int n) {
 }
 
 int main() {
+	//playing with function pointers incase the topic comes up on the theory portion.
 	double (*fp_double[2]) (double) = {fabsolute, deg_to_rad};
 	printf("fabsolute(-3.4): %f\ndeg_to_rad(180): %f\n", fp_double[0](-3.4), fp_double[1](180));
+	
 	printf("Sqrt(5): %f\n", square_root(5, 0.000001));
 	return EXIT_SUCCESS;
 }
