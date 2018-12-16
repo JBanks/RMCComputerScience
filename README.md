@@ -1,4 +1,4 @@
-# RMCComputerScience2021
+# RMC Computer Science 2021
 
 This is a repository of code to help people verify the work they've been doing in the Computer Science, Computer Engineering, and Electrical Engineering classes at RMC.
 
